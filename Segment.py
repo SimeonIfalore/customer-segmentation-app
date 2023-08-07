@@ -27,7 +27,7 @@ segment_mapping = {
 
 # Create the Streamlit app
 def main():
-    st.title("Customer Segmentation using RFM Analysis")
+    st.title("Customer Segmentation")
     st.image(image, width=500)
 
     # Input feature values from the user
