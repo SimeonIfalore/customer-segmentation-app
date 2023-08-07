@@ -1,1 +1,1 @@
-# customersegmentationapp
+# customer_segment
