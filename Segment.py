@@ -88,7 +88,7 @@ def main():
     if st.button("Predict"):
         # Predict the segment for the user input
         predicted_segment = model.predict(user_features)[0]
-        st.subheader(f"Customer Segment: :blue[{segment_mapping[predicted_segment]}]")
+        st.subheader(f"Customer Segment: :green[{segment_mapping[predicted_segment]}]")
 
 if __name__ == "__main__":
     main()
