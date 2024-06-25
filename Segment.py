@@ -31,9 +31,9 @@ def main():
     st.image(image, width=500)
 
     # Input feature values from the user
-    recency = st.number_input("Recency:", min_value=0)
-    frequency = st.number_input("Frequency:", min_value=0)
-    monetary = st.number_input("Monetary:", min_value=0)
+    recency = st.slider.number_input("Recency:", min_value=0)
+    frequency = st.slider.number_input("Frequency:", min_value=0)
+    monetary = st.slider.number_input("Monetary:", min_value=0)
     g = st.selectbox("Gender", ['Male', 'Female'])  # Categorical feature
     if (g == 'Male'):
         gender = 1
