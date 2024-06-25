@@ -31,6 +31,7 @@ def main():
     st.image(image, width=500)
 
     # Input feature values from the user
+    st.sidebar.header("RFM Features")
     recency = st.sidebar.number_input("Recency:", min_value=0)
     frequency = st.sidebar.number_input("Frequency:", min_value=0)
     monetary = st.sidebar.number_input("Monetary:", min_value=0)
